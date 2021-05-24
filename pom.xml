@@ -7,7 +7,7 @@
     <description>Maven plugin that automatically generates package-info.java files based on a template.</description>
     <groupId>io.github.willhains</groupId>
     <artifactId>package-info-maven-plugin</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
