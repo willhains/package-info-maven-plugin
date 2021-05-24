@@ -13,13 +13,14 @@
     <properties>
         <java.version>1.8</java.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
+        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
         <maven-plugin-annotations.version>3.4</maven-plugin-annotations.version>
         <maven-plugin-plugin.version>3.4</maven-plugin-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+	    <maven-release-plugin.version>3.0.0-M1</maven-release-plugin.version>
         <maven.version>3.3.9</maven.version>
-        <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <plexus-build-api.version>0.0.7</plexus-build-api.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -200,7 +201,7 @@
 	        <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-release-plugin</artifactId>
-		        <version>3.0.0-M4</version>
+		        <version>${maven-release-plugin.version}</version>
 		        <configuration>
 			        <localCheckout>true</localCheckout>
 			        <pushChanges>false</pushChanges>
