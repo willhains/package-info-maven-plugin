@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>Package Info Maven Plugin</name>
-    <url>https://github.com/bohnman/package-info-maven-plugin</url>
+    <url>https://github.com/willhains/package-info-maven-plugin</url>
     <description>Maven plugin that automatically generates package-info.java files based on a template.</description>
-    <groupId>com.github.bohnman</groupId>
+    <groupId>com.github.willhains</groupId>
     <artifactId>package-info-maven-plugin</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
@@ -27,7 +27,7 @@
     <licenses>
         <license>
             <name>BSD License</name>
-            <url>https://raw.githubusercontent.com/bohnman/package-info-maven-plugin/master/LICENSE.md</url>
+            <url>https://raw.githubusercontent.com/willhains/package-info-maven-plugin/master/LICENSE.md</url>
         </license>
     </licenses>
     <developers>
@@ -36,9 +36,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/bohnman/package-info-maven-plugin.git</connection>
-        <developerConnection>scm:git:ssh://github.com:bohnman/package-info-maven-plugin.git</developerConnection>
-        <url>https://github.com/bohnman/package-info-maven-plugin/tree/master</url>
+        <connection>scm:git:git://github.com/willhains/package-info-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://github.com:willhains/package-info-maven-plugin.git</developerConnection>
+        <url>https://github.com/willhains/package-info-maven-plugin/tree/master</url>
     </scm>
 
     <distributionManagement>
