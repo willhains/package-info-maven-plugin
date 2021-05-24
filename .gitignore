@@ -4,3 +4,5 @@ target/
 *.iml
 /pom.xml.versionsBackup
 src/generated/
+/pom.xml.releaseBackup
+/release.properties
