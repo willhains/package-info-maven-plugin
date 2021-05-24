@@ -32,8 +32,19 @@
     </licenses>
     <developers>
         <developer>
+	        <id>bohnman</id>
             <name>Ryan Bohn</name>
+	        <roles>
+		        <role>original developer</role>
+	        </roles>
         </developer>
+	    <developer>
+		    <id>willhains</id>
+		    <name>Will Hains</name>
+		    <roles>
+			    <role>developer</role>
+		    </roles>
+	    </developer>
     </developers>
     <scm>
         <connection>scm:git:git://github.com/willhains/package-info-maven-plugin.git</connection>
