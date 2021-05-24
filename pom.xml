@@ -7,7 +7,7 @@
     <description>Maven plugin that automatically generates package-info.java files based on a template.</description>
     <groupId>io.github.willhains</groupId>
     <artifactId>package-info-maven-plugin</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
@@ -197,6 +197,24 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
+	        <plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-release-plugin</artifactId>
+		        <version>3.0.0-M4</version>
+		        <configuration>
+			        <localCheckout>true</localCheckout>
+			        <pushChanges>false</pushChanges>
+			        <mavenExecutorId>forked-path</mavenExecutorId>
+			        <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
+		        </configuration>
+		        <dependencies>
+			        <dependency>
+				        <groupId>org.apache.maven.scm</groupId>
+				        <artifactId>maven-scm-provider-gitexe</artifactId>
+				        <version>1.9.5</version>
+			        </dependency>
+		        </dependencies>
+	        </plugin>
         </plugins>
     </build>
 
