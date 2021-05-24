@@ -59,7 +59,7 @@ public class HelpMojo
 
     // groupId/artifactId/plugin-help.xml
     private static final String PLUGIN_HELP_PATH =
-                    "/META-INF/maven/com.github.bohnman/package-info-generator-maven-plugin/plugin-help.xml";
+                    "/META-INF/maven/io.github.willhains/package-info-generator-maven-plugin/plugin-help.xml";
 
     private static final int DEFAULT_LINE_LENGTH = 80;
 
@@ -443,7 +443,7 @@ public class HelpMojo
         }
         return level;
     }
-    
+
     private String getPropertyFromExpression( String expression )
     {
         if ( expression != null && expression.startsWith( "${" ) && expression.endsWith( "}" )
