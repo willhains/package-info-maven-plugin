@@ -30,7 +30,7 @@ more Kotlin-friendly
 <build>
     <plugins>
         <plugin>
-            <groupId>com.github.bohnman</groupId>
+            <groupId>io.github.willhains</groupId>
             <artifactId>package-info-maven-plugin</artifactId>
             <version>1.2.0</version>
            <configuration>
